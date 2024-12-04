@@ -1,13 +1,13 @@
 const { Firestore } = require('@google-cloud/firestore');
 const path = require('path');
 
-const pathKey = path.resolve('./open-music-api-fcacdf2ceca6.json')
+const pathKey = path.resolve('./submissionmlgc-rizkyamalina-f2a04eda2132.json')
      
 async function storeData(id, data) {
 
   try {
     const db = new Firestore({
-      projectId: 'open-music-api',
+      projectId: 'submissionmlgc-rizkyamalina',
       keyFilename: pathKey,
     });
  
